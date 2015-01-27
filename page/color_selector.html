@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Select Color</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href='../style/style.css' />
+    <link rel="stylesheet" type="text/css" href='../style/color-buttons.css' />
+	<script language='JavaScript' type="text/javascript" src='../script/color_selector.js' ></script>
+  </head>
+  <body class='unselectable' onload='javascript:main();'>
+    <h1 class="shadow">
+      <ul>
+        <li id='btnBack' class='button' onclick="history.back();">⇦</li>
+        <li>Select:</li>
+      </ul>
+    </h1>
+    <h1 class='spacer'></h1>
+    <div class="child">
+      <ul>
+        <li class='black shadow button' onclick='javascript:SendColor("black");'  >Black</li>
+        <li class='brown shadow button' onclick='javascript:SendColor("brown");'  >Brown</li>
+        <li class='red shadow button' onclick='javascript:SendColor("red");'    >Red</li>
+        <li class='orange shadow button' onclick='javascript:SendColor("orange");' >Orange</li>
+        <li class='yellow shadow button' onclick='javascript:SendColor("yellow");' >Yellow</li>
+        <li class='green shadow button' onclick='javascript:SendColor("green");'  >Green</li>
+        <li class='blue shadow button' onclick='javascript:SendColor("blue");'   >Blue</li>
+        <li class='purple shadow button' onclick='javascript:SendColor("purple");' >Purple</li>
+        <li class='gray shadow button' onclick='javascript:SendColor("gray");'   >Gray</li>
+        <li class='white shadow button' onclick='javascript:SendColor("white");'  >White</li>
+        <li class='silver shadow button' onclick='javascript:SendColor("silver");' >Silver</li>
+        <li class='gold shadow button' onclick='javascript:SendColor("gold");'   >Gold</li>
+        <li class='none shadow button' onclick='javascript:SendColor("none");'   >NONE</li>
+      </ul>
+    </div>
+  </body>
+</html>

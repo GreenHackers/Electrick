@@ -1,0 +1,138 @@
+/* Document-wide styles */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Droid Sans';
+  src: url('font/DroidSans.ttf') format("truetype");
+  background-color: #202020;
+  color: white;
+}
+
+/* Header of every page */
+h1 {
+  background-color: #404040;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 8px solid #303030;
+  line-height: 1.5em;
+}
+
+/* items of header */
+h1 ul, h1 ul li {
+  display: inline;
+  background-color: transparent;
+}
+
+/* style for all of lists */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .: General Classes :. */
+.button {
+  background-color: #101010;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  transition: color 0.4s;
+  border-radius: 8px;
+  border-bottom: 6px solid #000000;
+  cursor: pointer;
+}
+.button:hover { /* some effect for buttons ( when mouse is over ) */
+  color: #999999;
+}
+.button:active { /* some effect for buttons ( when mouse is pressing ) */
+  background-color: #FFFFFF;
+  color: #000000;
+  border-bottom-color: #898989;
+}
+h1 .button { /* back button for back buttons (on left side of title bar) */
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin: 1%;
+  background-color: #606060;
+  border-radius: 6px;
+  border-bottom: 4px solid #505050;
+  transition: color 0.4s;
+}
+h1 .button:hover {
+	color: #000000;
+}
+.child { /* generate a space between document edge and element edge (both sides) */
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.shadow { /* generate a simple shadow for element */
+  -moz-box-shadow: 0 12px 36px -14px #000000;
+  -webkit-box-shadow: 0 12px 36px -14px #000000;
+  box-shadow: 0 12px 36px -14px #000000;
+}
+.center { /* places the element at center of it's parent. */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.unselectable { /* makes an element unselectable */
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.spacer { /*makes a space for top of element */
+  z-index: 0;
+  background-color: transparent;
+  border-width: 0;
+  position: static;
+  height: 1.5em;
+}
+
+#dynamic_field input { /* for inputboxes */
+	font-size: 2em;
+	background-color: #404040;
+	color: #FFFFFF;
+	border-width: 0;
+	text-align: center;
+	width: 99.6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  border-bottom: 4px solid #303030;
+  transition: background-color 0.5s, color 1s, border-bottom 0.5s;
+}
+#dynamic_field input:hover {
+	background-color: #606060;
+  border-bottom: 4px solid #505050;
+}
+#dynamic_field input:focus {
+	background-color: #FFFFFF;
+  border-bottom: 4px solid #AFAFAF;
+	color: #000000;
+}

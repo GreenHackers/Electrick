@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "name": "Electrick",
+  "description": "Common Electronic Calculations",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/image/icon/16.png",
+    "48": "/image/icon/48.png",
+    "60": "/image/icon/60.png",
+    "128": "/image/icon/128.png",
+    "256": "/image/icon/256.png"
+  },
+  "developer": {
+    "name": "Mohammad Amin Sameti"
+  }
+}

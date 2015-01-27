@@ -1,0 +1,145 @@
+div ul li {
+  padding-top: 10%;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+
+.black {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-bottom-color: #000000;
+}
+.black:active {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-bottom-color: #AFAFAF;
+}
+
+.brown {
+  background-color: #891F1F;
+  color: #FFFFFF;
+  border-bottom-color: #790F0F;
+}
+.brown:active {
+  background-color: #FFFFFF;
+  color: #891F1F;
+  border-bottom-color: #AFAFAF;
+}
+
+.red {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border-bottom-color: #AF0000;
+}
+.red:active {
+  background-color: #FFFFFF;
+  color: #FF0000;
+  border-bottom-color: #AFAFAF;
+}
+
+.orange {
+  background-color: #FFA500;
+  color: #000000;
+  border-bottom-color: #AF9500;
+}
+.orange:active {
+  background-color: #000000;
+  color: #FFA500;
+  border-bottom-color: #000000;
+}
+
+.yellow {
+  background-color: #FFFF00;
+  color: #000000;
+  border-bottom-color: #AFAF00;
+}
+.yellow:active {
+  background-color: #000000;
+  color: #FFFF00;
+  border-bottom-color: #000000;
+}
+
+.green {
+  background-color: #00FF00;
+  color: #000000;
+  border-bottom-color: #00AF00;
+}
+.green:active {
+  background-color: #000000;
+  color: #00FF00;
+  border-bottom-color: #000000;
+}
+
+.blue {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  border-bottom-color: #0000AF;
+}
+.blue:active {
+  background-color: #FFFFFF;
+  color: #0000FF;
+  border-bottom-color: #AFAFAF;
+}
+
+.purple {
+  background-color: #9D00FF;
+  color: #FFFFFF;
+  border-bottom-color: #8D00AF;
+}
+.purple:active {
+  background-color: #FFFFFF;
+  color: #9D00FF;
+  border-bottom-color: #AFAFAF;
+}
+
+.gray {
+  background-color: #7F7F7F;
+  color: #FFFFFF;
+  border-bottom-color: #6F6F6F;
+}
+.gray:active {
+  background-color: #FFFFFF;
+  color: #7F7F7F;
+  border-bottom-color: #AFAFAF;
+}
+
+.white {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-bottom-color: #AFAFAF;
+}
+.white:active {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-bottom-color: #000000;
+}
+
+.gold {
+  background-color: #D9BE45;
+  color: #000000;
+  border-bottom-color: #C9AE35;
+}
+.gold:active {
+  background-color: #000000;
+  color: #D9BE45;
+  border-bottom-color: #000000;
+}
+
+.silver {
+  background-color: #BFBFBF;
+  color: #000000;
+  border-bottom-color: #9F9F9F;
+}
+.silver:active {
+  background-color: #000000;
+  color: #BFBFBF;
+  border-bottom-color: #000000;
+}
+
+.none {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-bottom-color: transparent;
+}

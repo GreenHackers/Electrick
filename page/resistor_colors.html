@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resistor Colors</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href='../style/style.css' />
+    <link rel="stylesheet" type="text/css" href='../style/color-buttons.css' />
+  <script language='JavaScript' type="text/javascript" src='../script/resistor_colors.js' ></script>
+  </head>
+  <body onload='javascript:main();'>
+    <h1 class="shadow unselectable">
+      <ul>
+        <li id='btnBack' class='button unselectable' onclick="javascript:window.location = '../index.html'">⇦</li>
+        <li>Color Calc.</li>
+      </ul>
+    </h1>
+    <h1 class='spacer'></h1>
+    <div class="center unselectable">
+      <canvas id='cnvResistorColors' width='300' height='140'>
+        <p>Unfortunately, your browser is currently unsupported by our web application.</p>
+      </canvas>
+    </div>
+    <p id="result_viewer" class="child"></p>
+    <ul class='unselectable child'>
+        <li id='first_button'  onclick='javascript:ChangeColor(1, false);'>First Band</li>
+        <li id='second_button' onclick='javascript:ChangeColor(2, false);'>Second Band</li>
+        <li id='third_button'  onclick='javascript:ChangeColor(3, false);'>Third Band</li>
+        <li id='fourth_button' onclick='javascript:ChangeColor(4, false);'>Fourth Band</li>
+    </ul>
+  </body>
+</html>

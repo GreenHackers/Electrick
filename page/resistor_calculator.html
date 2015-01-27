@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resistance Calc.</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href='../style/style.css' />
+    <script language='JavaScript' type="text/javascript" src='../script/calculate_resistance.js' ></script>
+  </head>
+  <body onload='javascript:main();'>
+    <h1 class="shadow">
+      <ul>
+        <li id='btnBack' class='button' onclick="history.back();">⇦</li>
+        <li>Res. Calc.</li>
+      </ul>
+    </h1>
+    <h1 class='spacer'></h1>
+    <p id="result_viewer" class="child">Calculate the <i>Parallel</i> resistors.</p>
+    <div class="child center">
+			<ul>
+				<li id="btnAdd"    class="center shadow button" onclick="javascript:AddElement();"    >Add</li>
+				<li id="btnRemove" class="center shadow button" onclick="javascript:RemoveElement();" >Remove</li>
+			</ul>
+      <div id="dynamic_field" onkeyup="javascript:ValidateAll();"></div>
+    </div>
+  </body>
+</html>
